@@ -1,0 +1,697 @@
+﻿<?xml version="1.0" encoding="utf-8"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x2="urn:schemas-microsoft-com:office:excel2" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+ <x:ExcelWorkbook>
+  <x:ActiveSheet>0</x:ActiveSheet>
+  <x:DoNotCalculateBeforeSave />
+ </x:ExcelWorkbook>
+ <o:DocumentProperties>
+  <o:Created>2019-12-31T11:54:06Z</o:Created>
+  <o:LastSaved>2019-12-31T11:54:06Z</o:LastSaved>
+ </o:DocumentProperties>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Calibri" ss:Size="11" />
+  </Style>
+  <Style ss:ID="S21">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:Bold="1" ss:FontName="Calibri" ss:Size="11" />
+  </Style>
+  <Style ss:ID="S22">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Calibri" ss:Size="11" />
+   <ss:NumberFormat ss:Format="0" />
+  </Style>
+  <Style ss:ID="S23">
+   <ss:Alignment ss:Horizontal="Center" ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Calibri" ss:Size="11" />
+  </Style>
+  <Style ss:ID="S24">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Calibri" ss:Size="11" />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <ss:Names />
+  <ss:Table ss:DefaultRowHeight="14.25" ss:DefaultColumnWidth="48" ss:ExpandedRowCount="19" ss:ExpandedColumnCount="23">
+   <Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="31.5" />
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150" />
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="61.5" />
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="102" />
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="68.25" />
+   <Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="211.5" />
+   <Column ss:Index="7" ss:Span="1" ss:AutoFitWidth="0" ss:Width="129.75" />
+   <Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="95.25" />
+   <Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="75" />
+   <Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="273" />
+   <Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="191.25" />
+   <Column ss:Index="13" ss:AutoFitWidth="0" ss:Width="109.5" />
+   <Column ss:Index="14" ss:AutoFitWidth="0" ss:Width="68.25" />
+   <Column ss:Index="15" ss:Span="1" ss:AutoFitWidth="0" ss:Width="31.5" />
+   <Column ss:Index="17" ss:AutoFitWidth="0" ss:Width="68.25" />
+   <Column ss:Index="18" ss:AutoFitWidth="0" ss:Width="102" />
+   <Column ss:Index="19" ss:AutoFitWidth="0" ss:Width="109.5" />
+   <Column ss:Index="20" ss:AutoFitWidth="0" ss:Width="88.5" />
+   <Column ss:Index="21" ss:AutoFitWidth="0" ss:Width="31.5" />
+   <Column ss:Index="22" ss:AutoFitWidth="0" ss:Width="129.75" />
+   <Column ss:Index="23" ss:AutoFitWidth="0" ss:Width="48" />
+   <Row ss:Index="1">
+    <Cell ss:MergeAcross="22" ss:MergeDown="0" ss:StyleID="S23"><Data ss:Type="String">Destek Kaydı Listesi </Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="2">
+    <Cell ss:StyleID="S21"><Data ss:Type="String">#</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Statü</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Ticket No</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Kullanıcı Adı</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Xdsl/Ani</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Ünvan</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Açılış</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Güncelleme</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Açan</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Destek Tipi</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">İletilen Sorun</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Bulunan Sorun</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Alt Neden</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Çözüm Kodu</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">SLA</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Flag</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Müşteri No</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Güncelleyen</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Öncelik</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Atanan</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">His</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Nitelikli Dönüş</Data>
+    </Cell>
+    <Cell ss:StyleID="S21"><Data ss:Type="String">Call Id</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="3">
+    <Cell ss:Index="2"><Data ss:Type="String">3rd Partide Beklemede</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30176720</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">5448271265adsl</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">8810617439</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ERKAM ŞAHİN</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 11:38:35</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 14:17:50</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">IVR</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ADSL Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ADSL Işığı Yanmıyor</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">XDSL Teyit Bekleniyor</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">1279060</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">TelekomDurum</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-1</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-31 11:38:40</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell ss:Index="2"><Data ss:Type="String">3rd Partide Beklemede</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30159603</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">omrkskn32adsl</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">8811926160</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ÖMER KESKİN</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">30.12.2019 12:23:54</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 14:17:41</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">oim</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ADSL Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Modem Buluşması Gereken Hızda Buluşmuyor</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">XDSL Teyit Bekleniyor</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">972184</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">TelekomDurum</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-5</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-30 12:24:02</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell ss:Index="2"><Data ss:Type="String">3rd Partide Beklemede</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30171131</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">2163222851adsl</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">8818691076</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ÖMER SOYER</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">30.12.2019 20:49:36</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 14:15:04</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">IVR</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ADSL Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Sık Sık Kopuyor</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">XDSL Teyit Bekleniyor</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">1102843</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-3</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-30 20:49:41</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="6">
+    <Cell ss:Index="2"><Data ss:Type="String">Çözüm Merkezinde</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30176781</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">serkanser3thk</Data>
+    </Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">SERKAN TOSUN</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 11:42:21</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 14:11:47</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">oim</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Çevir Sesi Yok</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Çevir Sesi Hiç Yok</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">822630</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">izm.anil.ozturk</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-3</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-31 11:42:32</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="7">
+    <Cell ss:Index="2"><Data ss:Type="String">Çağrı Merkezinde</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30175080</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">2504569adsl</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">8824970195</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">SELDA KILIÇ</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 10:02:31</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 14:11:47</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">oim</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ADSL Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Asam Tanım Sorunu</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">TT ye iletilecek</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">1350492</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">izm.anil.ozturk</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-5</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-31 10:02:37</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="8">
+    <Cell ss:Index="2"><Data ss:Type="String">3rd Partide Beklemede</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30177966</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">26234923393adsl</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">8819264109</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">İLYAS BAĞRAÇ</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 12:44:13</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 14:11:46</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ugurcan.kaplan</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ADSL Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Modem Buluşması Gereken Hızda Buluşmuyor</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">XDSL Teyit Bekleniyor</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">1103848</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">izm.anil.ozturk</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-5</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-31 12:44:54</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell ss:Index="2"><Data ss:Type="String">Çağrı Merkezinde</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30178217</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">5365561444adsl</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">8822561514</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">UĞUR ULAŞAN</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 12:57:47</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 14:11:45</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">IVR</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ADSL Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">PPP/Internet Işığı Yanmıyor</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Sorun Araştırılıyor</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">1397656</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">izm.anil.ozturk</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-5</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-31 12:57:51</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="10">
+    <Cell ss:Index="2"><Data ss:Type="String">Çağrı Merkezinde</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30176326</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">5462164742adsl</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">1801686673</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ALİ AĞAÇ</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 11:17:11</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 14:11:44</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">IVR</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ADSL Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">PPP/Internet Işığı Yanmıyor</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Sorun Araştırılıyor</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">697324</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">izm.anil.ozturk</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-1</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-31 11:17:15</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="11">
+    <Cell ss:Index="2"><Data ss:Type="String">Çözüm Merkezinde</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30176922</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">2166316593adsl</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">8801348805</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">HACI ULUOCAK</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 11:47:48</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 14:11:43</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">IVR</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ADSL Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Performans Problemi</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Sorun Araştırılıyor</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">551098</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">izm.anil.ozturk</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-5</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-31 11:48:03</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell ss:Index="2"><Data ss:Type="String">Çözüm Merkezinde</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30177440</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">66316942adsl</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">8814278118</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">YILMAZ ÖZEV</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 12:15:25</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 14:11:43</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">IVR</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ADSL Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">İnternete Erişemiyor</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Sorun Araştırılıyor</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">987204</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">izm.anil.ozturk</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-5</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-31 12:15:33</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="13">
+    <Cell ss:Index="2"><Data ss:Type="String">Saha Ekibinde</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30088273</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">5309306024adsl</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">8827178745</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ALPEREN DEMİRTAŞ</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">25.12.2019 13:58:06</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 13:33:08</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">oim</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ADSL Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Sık Sık Kopuyor</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">XDSL Teyit Bekleniyor</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">1470634</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">oim</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-1</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-25 13:58:08</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="14">
+    <Cell ss:Index="2"><Data ss:Type="String">3rd Partide Beklemede</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30111285</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">5374473423adsl</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">8829133143</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">MEHMET AKPULAT</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">26.12.2019 18:39:31</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 13:29:17</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">tmp.umit.doru</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ADSL Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Performans Problemi</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Hız Testi Sonucu Bekleniyor</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">1533172</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">oim</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-1</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-26 18:39:36</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="15">
+    <Cell ss:Index="2"><Data ss:Type="String">3rd Partide Beklemede</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30165572</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">8629458adsl</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">8826282656</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">MEHMET AVCI</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">30.12.2019 16:52:37</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 12:55:58</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">oim</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ADSL Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Asam Tanım Sorunu</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">XDSL Teyit Bekleniyor</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">1084589</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-1</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-30 16:53:02</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="16">
+    <Cell ss:Index="2"><Data ss:Type="String">3rd Partide Beklemede</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30172928</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">penci1907adsl</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">8812627203</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ÖZCAN BAKMAZ</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">30.12.2019 23:11:35</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 12:42:57</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">oim</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ADSL Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Sık Sık Kopuyor</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">XDSL Teyit Bekleniyor</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">912045</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-1</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-30 23:11:36</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="17">
+    <Cell ss:Index="2"><Data ss:Type="String">Çözüm Merkezinde</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30170760</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">2701447</Data>
+    </Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">SEZER ÇEVİK</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">30.12.2019 20:31:42</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 12:24:37</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">IVR</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Arama Yapamıyorum</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Tüm Yönlere Arama Yapılmıyor</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">1465926</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">izm.anil.ozturk</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-5</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-30 20:31:43</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="18">
+    <Cell ss:Index="2"><Data ss:Type="String">3rd Partide Beklemede</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30100350</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">2563513310adsl</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">8819526473</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ALİ ÖZKURT</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">26.12.2019 09:08:57</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 11:44:19</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">IVR</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">ADSL Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Modem Buluşması Gereken Hızda Buluşmuyor</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">XDSL Teyit Bekleniyor</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">1072621</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-5</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-26 09:08:59</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="19">
+    <Cell ss:Index="2"><Data ss:Type="String">Turk Telekom Beklemede</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="Number">30088293</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">5316342340thk</Data>
+    </Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">BASSAM MOHAMMED AZEEZ AL-BADRAN</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">25.12.2019 13:59:15</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">31.12.2019 11:36:53</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">IVR</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Arıza</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Çevir Sesi Yok</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Çevir Sesi Hiç Yok</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Telekom Kaynaklı</Data>
+    </Cell>
+    <Cell ss:Index="17" ss:StyleID="S22"><Data ss:Type="Number">1531805</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Teknik Problem-1</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">kubilay.sener</Data>
+    </Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">2019-12-25 13:59:34</Data>
+    </Cell>
+   </Row>
+  </ss:Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0" />
+    <Footer x:Margin="0" />
+    <PageMargins x:Top="0" x:Bottom="0" x:Left="0" x:Right="0" />
+   </PageSetup>
+   <Print>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
